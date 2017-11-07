@@ -3,7 +3,7 @@
 		"VPC": {
 			"Type": "AWS::EC2::VPC",
 			"Properties": {
-				"CidrBlock": "172.1.0.0/16",
+				"CidrBlock": "192.1.0.0/16",
 				"EnableDnsSupport": "true",
 				"EnableDnsHostnames": "true",
 				"InstanceTenancy": "default",

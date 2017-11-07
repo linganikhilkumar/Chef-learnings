@@ -1,6 +1,6 @@
 {
 	"Resources": {
-		"lNikVpc": {
+		"VPC": {
 			"Type": "AWS::EC2::VPC",
 			"Properties": {
 				"CidrBlock": "10.0.0.0/16",
@@ -33,7 +33,7 @@
 				}
 			}
 		},
-		"PublicSubnet01": {
+		"PublicSubnet1": {
 			"Type": "AWS::EC2::Subnet",
 			"Properties": {
 				"VpcId": {
